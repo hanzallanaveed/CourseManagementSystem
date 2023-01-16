@@ -1,0 +1,9 @@
+# Quality Attributes
+| ID | Quality Attributes | Scenario | Associated Use Case | 
+| --------- | ----------- | ---------------------- | --------------- |
+| QA-1 | Privacy| A student attempts to attempts to view the grades of another and is sent a denied access, invalid credentials page and link to a user customizable visibility policy page is available.  | UC-1 |
+| QA-2 | Availability | A failure occurs in the course management system. The system is operational within 30 seconds and the downtime is added to monthly downtime quota. The cause of failure is investigated by the system administrator. A notification is sent to users when system downtime is planned | UC-3 |
+| QA-3| User Friendliness | Once the user logs in their session is saved with a timestamp and they have access to all protected pages given their access rights. Within user settings a user may change their language, choosing between english and dutch. The UI is based on a component engine and page data is rendered into the components. All UI elements are given meta descriptions user with accessibility issue which can be activated in settings. | UC-2 |
+| QA-4| Accessibility| All UI elements are given meta descriptions user with accessibility issue which can be activated in settings. | UC-4 |
+| QA-5| Security | A user registers with their student id and email and is given read and write permission to their profile. When on the profile page of another student they can change the other student's study information. | UC-6 |
+| QA-6| Inoperability  | Only developers and system administrators are given access to make system changes on the server. Admin can also make changes to courses. User's can export their schedules to an ics file and import ics files to add to their calendar. | UC-5 |
